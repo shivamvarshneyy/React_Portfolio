@@ -3,7 +3,9 @@ import React from 'react'
 const Error = () => {
   return (
     <>
-        <h1>Oops, Error 404 Page not Found</h1>
+        <div className="error">
+        <h1>Oops!!! <span style={{color : "#FF0000"}}> Error 404 </span>, Page not Found <span className='animated'>😢</span></h1>
+        </div>
     </>
   )
 }
